@@ -3,7 +3,7 @@ import { Header, Avatar, Group, Text, Flex, Image } from "@mantine/core";
 import { IconChevronDown } from "@tabler/icons-react";
 function Navbar() {
   return (
-    <Header height={100} p={20}>
+    <Header height={100} p={20} style={{ fontFamily: "Open Sans" }}>
       <Flex justify="space-between" align="center">
         <Image
           src="https://www.prolegalserve.com/wp-content/uploads/2023/02/Pro-Legal-Serve-Logo.png"
@@ -21,7 +21,7 @@ function Navbar() {
           />
           <div>
             <Flex gap={10}>
-              <Text fz="xs" fw={700}>
+              <Text fz="xs" fw={700} style={{ fontSize: "17px" }}>
                 John Deo
               </Text>
               <IconChevronDown size={16} />
