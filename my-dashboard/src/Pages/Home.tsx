@@ -35,7 +35,6 @@ function Home() {
     try {
       const res = await fetch("https://uptight-cyan-chicken.cyclic.app/data");
       const jsonData = await res.json();
-      //   console.log(jsonData);
       setData(jsonData);
     } catch (error) {
       console.error("Error fetching data:", error);
