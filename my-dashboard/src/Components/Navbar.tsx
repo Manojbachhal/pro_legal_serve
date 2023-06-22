@@ -24,7 +24,7 @@ function Navbar() {
               <Text fz="xs" fw={700} style={{ fontSize: "17px" }}>
                 John Deo
               </Text>
-              <IconChevronDown size={16} />
+              <IconChevronDown size={16} style={{ paddingTop: "6px" }} />
             </Flex>
             <Flex>
               <Text fz="xs" fw={700} c="dimmed">
