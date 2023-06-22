@@ -33,7 +33,7 @@ function Home() {
 
   const getData = async () => {
     try {
-      const res = await fetch(" http://localhost:8000/data");
+      const res = await fetch("https://uptight-cyan-chicken.cyclic.app/data");
       const jsonData = await res.json();
       //   console.log(jsonData);
       setData(jsonData);
